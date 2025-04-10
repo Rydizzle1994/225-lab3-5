@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/pylerd'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/Rydizzle1994/225-lab3-5.git'                                          //<------change this
-        KUBECONFIG = credentials('pylerd-test-credentials')                                                         //<------change this
+        KUBECONFIG = credentials('pylerd-225')                                                         //<------change this
     }
 
     stages {
